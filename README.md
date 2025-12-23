@@ -9,6 +9,8 @@ Python tools to read XLTEK/Natus EEG data and convert to MATLAB v7.3 .mat format
 - **Extract timestamps** from `.snc` sync files
 - **Export to MATLAB v7.3** `.mat` format with proper voltage scaling
 
+> **Note:** Currently, this tool converts the **entire** XLTEK directory. Time-based indexing for partial extraction is planned for a future release. If multiple .erd files are found it contatenates them into a single .mat. 
+
 ## Installation
 
 ```bash
