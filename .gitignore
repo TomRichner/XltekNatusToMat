@@ -10,3 +10,21 @@ __pycache__/
 *.mat
 *.h5
 output.*
+
+# Local data paths
+datapath.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
